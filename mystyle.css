@@ -1,0 +1,15 @@
+h1 {
+  text-align:center;
+  font-size:40px;
+  font-family:Arial;
+}
+h2 {
+  text-align:center;
+  font-size:22px;
+  font-family:Arial;
+  font-weight:normal;
+  font-style:italic;
+}
+body {
+  background:#f0f0f0;
+}
