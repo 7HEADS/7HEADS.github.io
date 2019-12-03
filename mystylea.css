@@ -29,3 +29,36 @@ a:active {
   color:white;
   text-decoration:none;
 }
+div.optionBar {
+  background:#666666;
+  width:300px;
+  height:500px;
+  padding:0px;
+  float:left;
+  margin:20px 0px 20px 20px;
+}
+button.optionBar {
+  background:grey;
+  color:white;
+  font-size:25px;
+  padding:20px;
+  margin:0px;
+  width:110%;
+}
+div.content {
+  background:#cccccc;
+  width:50%;
+  height:500px;
+  float:left;
+  padding:0px;
+  margin:20px 20px 0px 20px;
+}
+div.optionHeading {
+  background:#aaaaaa;
+  color:black;
+  font-weight:bold;
+  font-size:25px;
+  padding:20px;
+  margin:0;
+  width:100%;
+}
