@@ -1,0 +1,301 @@
+﻿<!DOCTYPEhtml>
+<html>
+<head>
+	<title>Great News!</title>
+	<meta charset="UTF-8">
+    <meta name="description" content="This is my first website.">
+    <meta name="author" content="Joe To">
+    <meta name="viewport" content="width=device-width;initial-scale=1.0">
+<style>
+body  {
+		background-color:powderblue;
+        background-image:url("greenpic.jfif");
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+	  }
+h1    {
+		color:red;
+		font-family:verdana;
+      }
+     
+p     {
+		color:green;
+        font-size:20px
+      }
+
+p.error  {color:grey}
+      
+p2     {
+		color:blue;
+        font-size:20px
+      }
+a:link {
+  color: green;
+  text-decoration: none;
+}
+
+a:visited {
+  color: orange;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  text-decoration: underline;
+}
+table, th, td{
+	border:2px solid black;
+    }
+th, td{padding:10px;}
+th  {text-align:left;}
+table  {border-spacing: 10px;}
+table.contact  {border-collapse:collapse;
+				background-color:rgba(256,180,0,0.5);}
+tr.us  {background-color:rgba(0,124,0,0.5);}
+table#t01 tr:nth-child(odd){background-color:#a0a0a0}
+table#t01 tr:nth-child(even){background-color:#d0d0d0}
+table#t01 th{background-color:black;color:white}
+
+ul#list01 {background-color:black; color:white; list-style-type:none;overflow:hidden;margin:0;padding:0;text-decoration:none}
+ul#list01 li{float:left}
+ul#list01 li a{padding:16px;text-align:center;display:block}
+ul#list01 li a:link{text-decoration:none;color:white}
+ul#list01 li a:hover{background-color:#b0b0b0}
+ul#list01 li a:active{text-decoration:none}
+ul#list01 li a:visited{text-decoration:none;color:white}
+
+header	{background-color:#333;font-size:30px;padding:30px;color:white;text-align:center;box-sizing:border-box;}
+
+nav		{background-color:#666;font-size:16px;padding:30px;float:left;width:30%;box-sizing:border-box;height:300px;color:white}
+article	{background-color:#ccc;font-size:16px;width:70%;float:left;padding:30px;box-sizing:border-box;height:300px}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer	{background-color:#aaa;font-size:14px;padding:20px}
+
+@media(max-width:500px) {
+	nav, article {width:100%;height:auto}
+    }
+
+.leftt {box-sizing:border-box;float:left;padding:20px;text-align:center;color:white;background-color:red;width:20%;margin:0px}
+.middlee {box-sizing:border-box;float:left;padding:20px;text-align:center;color:white;background-color:blue;width:60%;margin:0px}
+.rightt {box-sizing:border-box;float:left;padding:20px;text-align:center;color:white;background-color:green;width:20%;margin:0px}
+
+@media (max-width:600px) {
+	.leftt, .middlee, .rightt {width:100%;height:auto}
+    }
+
+</style>
+
+</head>
+
+<body>
+
+<ul id="list01">
+  <li><a href="#flowerl">Flowers</a></li>
+  <li><a href="#pizzal">Pizza</a></li>
+  <li><a href="#contactl">Contact</a></li>
+</ul>
+
+<noscript>Javascript is not available</noscript>
+
+<h1 title="haha" style="font-size:220%;text-align:center">Great News</h1>
+
+<!--this is a secret message
+<bdo dir=rtl>this is a secret message</bdo>
+-->
+
+<p><cite>Great News</cite> by Joe To. Announced in 2019.</p>
+
+<address>
+Written by Joe To<br>
+Actuarial Intern<br>
+AXA, Vertical Square<br>
+Wong Chuk Hang
+</address>
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html" style="border:2px solid rgba(185,120,0,0.8)">
+For 50 years, Google has been working hard for the future of the Earth.
+The world's leading technological developer,
+Google works in 100 countries and is supported by
+1.2 million members in the United States and
+close to 5 million globally. Wow!
+</blockquote>
+
+<p class="error">Today is Friday!<br>Let's go surf the Internet!</p>
+<b>Here is an <span style="color:red">important</span> message from <del>Microsoft</del> Google <abbr title="Chief Executive Officer">CEO</abbr> <q>Thomas</q>:</b>
+<hr>
+<div style="background-color:rgba(256,180,0,0.5);padding:20px">
+<pre>
+Google Chrome is the
+BEST
+browser on Earth!
+</pre>
+</div>
+<hr>
+<p2>Let's go to <a href="https://www.google.com/" target="_blank" title="Go to Google Chrome">Google</a> to find something great!</p2>
+<p>Use the encyclopedia below in case you need some help:</p>
+<br>
+<iframe src="https://en.wikipedia.org/wiki/Main_Page" style="border:none;width:600px;height:300px" name="iframe_a"></iframe>
+<a href="https://sudoku.game/", target="iframe_a"><p><button>Play Sudoku Instead</button></p></a>
+
+<ul style="list-style-type:square">
+	<li>Playing Online Games</li>
+    	<ul>
+          <li>Mario Kart</li>
+          <li>Super Mario Bros.</li>
+        </ul>
+	<li>Watching Movies</li>
+	<li>Listening to Music</li>
+</ul>
+
+<h2 style="font-size:20px;">Feelings:</h2>
+<ol type="A" start="50" style="font-family:verdana;">
+	<li>Happy!</li>
+	<li>Exciting!</li>
+	<li>Interesting!</li>
+</ol>
+
+<p id="flowerl"><img src="Images\flower.jfif" alt="it is a picture"usemap="#mymap" style="width:200px;height:300px;border:0"></p>
+
+<map name="mymap">
+  <area shape="rect" coords="30,185,140,240" onclick=myfunction1()>
+  <area shape="circle" coords="100,125,80" onclick=myfunction2()>
+</map>
+
+<script>
+function myfunction1(){
+	alert("This is a green leaf.");
+    }
+
+function myfunction2(){
+	alert("This is a pink flower.");
+    }
+</script>
+
+<p>Click on the flower and the leaves to learn more about them!</p>
+
+<picture id="pizzal">
+<source media="(min-width:650)" srcset="Images\burger.jfif">
+<img src="Images\pizza.jfif" alt="pizza" style="width:auto">
+</picture>
+
+<table id="t01" style="width:100%">
+<tr>
+  <th>Style</th>
+  <th>Taste</th>
+</tr>
+<tr>
+  <td>Italian</td>
+  <td>Yummy</td>
+</tr>
+<tr>
+  <td>Hawaii</td>
+  <td>Jeng</td>
+</tr>
+</table>
+<br>
+
+<table id="contactl" class="contact">
+<caption style="font-size:20px"><b>Contact Us</b></caption>
+<tr class="us">
+  <th>Name</th>
+  <th colspan="2">Telephone No.</th>
+</tr>
+<tr>
+  <td rowspan="2">Joe To</td>
+  <td>37022954 (AXA)</td>
+  <td>51156838</td>
+</tr>
+<tr>
+  <td colspan="2">12345678 (Fake)</td>
+</tr>
+</table>
+
+<br>
+<b style="font-size:20px">Partnership:</b>
+<dl>
+  <dt>Thomas Soo</dt>
+    <dd>- Mahjong Master</dd>
+  <dt>Ricky Chan</dt>
+    <dd>- UAT Master</dd>
+</dl>
+
+<p id="sadd">I am very sad now.</p>
+<button onclick="changeword()">Change Mood</button>
+
+<p id="redblue" style="color:red;background-color:pink">RED</p>
+<button onclick=changecolor()>Change Colour</button>
+
+<script>
+function changeword() {
+	document.getElementById("sadd").innerHTML = "I am very HAPPY now!";
+    }
+    
+function changecolor() {
+	document.getElementById("redblue").innerHTML="BLUE";
+    document.getElementById("redblue").style.color="blue";
+    document.getElementById("redblue").style.fontSize="30px";
+    document.getElementById("redblue").style.backgroundColor="lightblue"
+	}
+function changepic() {
+	document.getElementById("burgerr").src = "manyburgers.jfif";
+    }
+</script>
+
+<p><img id="burgerr" src="Images\burger.jfif"></p>
+<button onclick="changepic()">I want more burgers!</button>
+
+<p>CSS Layout Sample</p>
+<header>Best Online Game Ever</header>
+
+<section>
+<nav>
+  <ul style="list-style-type:none;padding:0px">
+  <li style="text-decoration:underline">Mario Kart</li>
+  <li>Super Mario Bros.</li>
+  <li>Soul Knight</li>
+  <li>Head Soccer</li>
+  </ul>
+</nav>
+
+<article>
+<h1>Mario Kart</h1>
+<p3>This game is a car-racing game developed by Nintendo Ltd. in 2003. It is different from traditional car-racing game, by allowing the use of different props (such as banana skin, shells, bombs) to disrupt their opponents. It is a very funny game. Enjoy!</p3>
+</article>
+</section>
+<footer>Written by Joe To, an expert in Mario Kart.</footer>
+
+<p>HTML Responsive</p>
+<p><img src="Images\sandwich.jfif" style="max-width:100%"></p>
+
+<picture>
+  <source srcset="Images\cat.jfif" media="(max-width:600px)">
+  <source srcset="Images\trump.jfif" media="(max-width:1200px)">
+  <img src="Images\pika.jfif" style="max-width:100%">
+</picture>
+<p style="font-size:5vw">Is it Trump or Pikachu or a cat?</p>
+
+<p>Three Colour Bar</p>
+<p class="leftt">Left</p>
+<p class="middlee">Middle</p>
+<p class="rightt">Right</p>
+
+<p>Thank You for Browsering My Website!</p>
+
+<a href="#list01">
+<p><button>Back to Top</button></p>
+</a>
+
+</body>
+
+</html>
