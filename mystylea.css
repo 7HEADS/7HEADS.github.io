@@ -8,8 +8,24 @@ h2 {
   font-size:22px;
   font-family:Arial;
   font-weight:normal;
-  font-style:italic;
+  font-style:italic;https://www.w3schools.com/html/actuarialScience.htm
 }
 body {
   background:#f0f0f0;
+}
+a:link {
+  color:#444444;
+  text-decoration:underline;
+}
+a:visited {
+  color:#444444;
+  text-decoration:none;
+}
+a:hover {
+  color:blue;
+  text-decoration:none;
+}
+a:active {
+  color:white;
+  text-decoration:none;
 }
