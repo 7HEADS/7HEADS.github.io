@@ -1,0 +1,155 @@
+﻿body {
+  background:url("blackback.jfif") fixed;
+}
+*::selection {
+  background-color:black;
+  color:white;
+}
+h1 {
+  font-size:3.5vw;
+  color:#eeeeee;
+  text-align:center;
+  text-transform:uppercase;
+  text-shadow:3px 3px #888888;
+  margin:50px 0px;
+}
+h2 {
+  font-size:22px;
+  color:#444444;
+  margin-left:20px;
+  text-align:left;
+}
+h3 {
+  font-size:16px;
+  color:#000000;
+  margin-left:20px;
+  text-align:left;
+  font-weight:normal;
+}
+p {
+  font-size:16px;
+  font-family:arial;
+  color:#333333;
+  margin-left:20px;
+}
+p2 {
+  font-size:14px;
+  color:#000000;
+  margin-left:20px;
+  text-style:italic;
+}
+div.text1 {
+  border:10px ridge white;
+  border-radius:10px;
+  background:#aaaaaa;
+  margin:10px 100px;
+  padding:10px 30px 10px 10px;
+  text-align:justify;
+  letter-spacing:1px;
+  line-height:20px;
+}
+a.hyperr:link {
+  color:grey;
+  text-decoration:none;
+}
+a.hyperr:visited {
+  color:grey;
+  text-decoration:none;
+}
+a.hyperr:hover {
+  color:white;
+  text-decoration:underline;
+}
+a.hyperr:active {
+  color:yellow;
+  text-decoration:underline;
+}
+div.text2 {
+  margin:20px 100px;
+}
+.buttonn:link, .buttonn:visited {
+  background-color:#777777;
+  font-family:arial;
+  color:#ffffff;
+  padding:10px 30px 10px 30px;
+  text-align:center;
+  text-decoration:none;
+}
+.buttonn:hover {
+  background-color:#eeeeee;
+  font-family:arial;
+  color:#000000;
+  padding:10px 30px 10px 30px;
+  text-align:center;
+  text-decoration:none;
+}
+.buttonn:active {
+  background-color:blue;
+  font-family:arial;
+  color:black;
+  padding:10px 30px 10px 30px;
+  text-align:center;
+  text-decoration:none;
+}
+ul.games {
+  list-style:outside url("")
+}
+table.games {
+  border-collapse:collapse;
+  margin:20px;
+}
+table.games, th.games, td.games {
+  border:2px solid black;
+  font-family:arial;
+  text-align:left;
+}
+tr.games:nth-child(even) {
+  background-color:#dddddd;
+}
+tr.games:nth-child(odd) {
+  background-color:white;
+}
+tr.games:nth-child(1) {
+  background-color:lightgreen;
+}
+th.games, td.games {
+  padding:10px;
+}
+tr.games:hover {
+  background-color:#bbbbbb;
+}
+tr.games:nth-child(1):hover {
+  background-color:lightgreen;
+}
+div.floatbox {
+  float:left;
+  margin:20px 0px;
+}
+div.clearfix {
+  margin-left:20px;
+}
+div.clearfix:after {
+  content:"";
+  clear:both;
+  display:table;
+}
+table.contactt {
+  border-collapse:collapse;
+  margin:0px 30px 30px;
+  width:90%;
+  background-color:#cccccc;
+}
+table.contactt th, td {
+  border:2px solid black;
+  font-family:arial;
+  padding:10px 15px;
+  text-align:left;
+}
+table.contactt tr:nth-child(2) {
+  background-color:#eeeeee;
+}
+table.contactt tr:first-child {
+  background-color:#111111;
+  color:#ffffff;
+  font-size:36px;
+}
